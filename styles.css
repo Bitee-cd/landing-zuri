@@ -36,9 +36,6 @@ body{
     height:100%;
 }
 .text-box{
-    margin:auto auto;
-}
-.text-box{
     width:50%;
     margin:50px;
 }
@@ -224,3 +221,77 @@ footer .icons  i:hover{
     border-color:#ff9bdb;
 }
 /* footer  */
+
+
+/* media query for mobile version */
+@media only screen and (max-width: 490px) {
+    h1{
+        font-size:20px;
+    }
+    p{
+        font-size:18px;
+        font-weight:300;
+    }
+    .info-box{
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        height:100%;
+        width:100%;
+    }
+    .info-box .image-box{
+        width:90%;
+    }
+    .second-box,
+    .third-box,
+    .fourth-box,
+    .footer
+    {
+        display:flex;
+        flex-direction:column;
+        height:100%;
+        width:100%;
+        margin:20px 0;
+        padding:0;
+    }
+    .second-box img,
+    .third-box img,
+    .fourth-box img{
+        width:200px;
+        height:200px;
+    }
+    .fifth{
+        width:300px;
+        height:100px;
+        padding:0;
+        top:-50px;
+    }
+    .fifth h1{
+        font-size:14px;
+
+    }
+    .navigation button{
+        font-size:10px;
+        height:35px;
+        padding:10px;
+    }
+    .pink{
+        font-size:12px;
+        padding:10px;
+    }
+    .text-box,
+    .image-box
+    .third-box .text-box{
+        padding:20px;
+        margin:0;
+        width:80%;
+    }
+    .first{
+        padding:10px;
+    }
+    .text-box{
+        margin:0;
+    }
+  }
+
+/* media query for mobile version */
